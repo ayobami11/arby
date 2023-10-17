@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+img {
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.text-fill-transparent {
+  -webkit-text-fill-color: transparent;
+}
