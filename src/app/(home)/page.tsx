@@ -22,14 +22,14 @@ export default function Home() {
       <Header />
 
       <main className='overflow-hidden'>
-        <section className='w-5/6 mx-auto pt-[4.1875rem] md:pt-[11.4375rem]'>
+        <section className='w-5/6 mx-auto pt-[7.1875rem] md:pt-[9.4375rem]'>
           <h1 className='font-georama text-[2rem]/[1.574] mb-6 underline underline-offset-[1rem] decoration-1 decoration-emerald-400 md:text-[3.125rem]'>Why Hello, I am Arby, <br /> ingenious Interaction Designer and writer.</h1>
           <p className='mb-[2.3125rem] md:text-2xl'>I create meaningful connections between users and products.</p>
           <div className='flex flex-wrap gap-6 text-sm md:text-xl'>
             <Link href=''
               className='inline-flex items-center shrink-0 bg-main-gradient rounded-[2.125rem] py-4 px-6 uppercase'>View my work</Link>
-            <Link href='' 
-            className='inline-flex items-center shrink-0 border border-current rounded-[2.125rem] py-4 px-6'>Contact me</Link>
+            <Link href=''
+              className='inline-flex items-center shrink-0 border border-current rounded-[2.125rem] py-4 px-6'>Contact me</Link>
           </div>
         </section>
         <div className='bg-dark-blue py-[7px] mt-[3.23rem] mb-[8.619rem] md:py-[11px] md:mt-[9.75rem]'>
@@ -55,7 +55,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <section>
+        <section className='mb-10'>
           <div className='w-5/6 mx-auto'>
             <h2 className='mb-6'>Selected Projects</h2>
             <blockquote className='flex flex-col max-w-[708px] mb-[3.9375rem] md:mb-[7rem]'>
@@ -76,8 +76,8 @@ export default function Home() {
                     className='absolute w-full h-full'
                   />
                   <ul className='absolute bottom-0 mb-[1.4375rem] text-[1.0625rem] ml-[1.4375rem] flex flex-wrap gap-[0.8125rem] items-start z-10'>
-                    <li className='bg-main-gradient w-fit py-1.5 px-4 rounded-[34px]'>UI/UX Design</li>
-                    <li className='bg-main-gradient w-fit py-1.5 px-4 rounded-[34px]'>Research</li>
+                    <li className='bg-gradient-to-r from-[#b9b9b9] to-[#727272] w-fit py-1.5 px-4 rounded-[34px]'>UI/UX Design</li>
+                    <li className='bg-gradient-to-r from-[#b9b9b9] to-[#727272] w-fit py-1.5 px-4 rounded-[34px]'>Research</li>
                   </ul>
                 </div>
                 <figcaption className='w-5/6 mx-auto md:w-auto'>
@@ -95,8 +95,8 @@ export default function Home() {
                     className='absolute w-full h-full'
                   />
                   <ul className='absolute bottom-0 mb-[1.4375rem] text-[1.0625rem] ml-[1.4375rem] flex flex-wrap gap-[0.8125rem] items-start z-10'>
-                    <li className='bg-main-gradient w-fit py-1.5 px-4 rounded-[34px]'>UI/UX Design</li>
-                    <li className='bg-main-gradient w-fit py-1.5 px-4 rounded-[34px]'>Research</li>
+                    <li className='bg-gradient-to-r from-[#b9b9b9] to-[#727272] w-fit py-1.5 px-4 rounded-[34px]'>UI/UX Design</li>
+                    <li className='bg-gradient-to-r from-[#b9b9b9] to-[#727272] w-fit py-1.5 px-4 rounded-[34px]'>Research</li>
                   </ul>
                 </div>
                 <figcaption className='w-5/6 mx-auto md:w-auto'>
@@ -114,8 +114,8 @@ export default function Home() {
                     className='absolute w-full h-full'
                   />
                   <ul className='absolute bottom-0 mb-[1.4375rem] text-[1.0625rem] ml-[1.4375rem] flex flex-wrap gap-[0.8125rem] items-start z-10'>
-                    <li className='bg-main-gradient w-fit py-1.5 px-4 rounded-[34px]'>UI/UX Design</li>
-                    <li className='bg-main-gradient w-fit py-1.5 px-4 rounded-[34px]'>Research</li>
+                    <li className='bg-gradient-to-r from-[#b9b9b9] to-[#727272] w-fit py-1.5 px-4 rounded-[34px]'>UI/UX Design</li>
+                    <li className='bg-gradient-to-r from-[#b9b9b9] to-[#727272] w-fit py-1.5 px-4 rounded-[34px]'>Research</li>
                   </ul>
                 </div>
                 <figcaption className='w-5/6 mx-auto md:w-auto'>
@@ -133,8 +133,8 @@ export default function Home() {
                     className='absolute w-full h-full'
                   />
                   <ul className='absolute bottom-0 mb-[1.4375rem] text-[1.0625rem] ml-[1.4375rem] flex flex-wrap gap-[0.8125rem] items-start z-10'>
-                    <li className='bg-main-gradient w-fit py-1.5 px-4 rounded-[34px]'>UI/UX Design</li>
-                    <li className='bg-main-gradient w-fit py-1.5 px-4 rounded-[34px]'>Research</li>
+                    <li className='bg-gradient-to-r from-[#b9b9b9] to-[#727272] w-fit py-1.5 px-4 rounded-[34px]'>UI/UX Design</li>
+                    <li className='bg-gradient-to-r from-[#b9b9b9] to-[#727272] w-fit py-1.5 px-4 rounded-[34px]'>Research</li>
                   </ul>
                 </div>
                 <figcaption className='w-5/6 mx-auto md:w-auto'>
@@ -146,7 +146,7 @@ export default function Home() {
           </ul>
         </section>
         <section className='w-5/6 max-w-[1294px] mx-auto mb-[8.0625rem] md:w-11/12'>
-          <h2 className='text-2xl hidden mb-6 md:block'>Contact me</h2>
+          <h2 className='hidden mb-6 md:block'>Contact me</h2>
 
           <p className='hidden mb-[6.875rem] bg-main-gradient bg-clip-text text-transparent text-4xl/[1.296] font-bold max-w-[804px] md:block'>My Best friend says there&apos;s nothing like over communication.</p>
 
@@ -154,35 +154,60 @@ export default function Home() {
             <h3 className='text-2xl'>Get in touch</h3>
 
             <div className='flex flex-wrap gap-6'>
-              <a className='shrink-0' href='' target='_blank' rel='noopener noreferrer' title='Linkedin'>
+              <a
+                className='shrink-0'
+                href='https://www.linkedin.com/in/abisola-jegede'
+                target='_blank'
+                rel='noopener noreferrer'
+                title='Linkedin'>
                 <Image
                   src={linkedinLogo}
                   alt='Linkedin logo'
                   className=''
                 />
               </a>
-              <a className='shrink-0' href='' target='_blank' rel='noopener noreferrer' title='Dribbble'>
+              <a
+                className='shrink-0'
+                href='https://dribbble.com/AbisolaJegede'
+                target='_blank'
+                rel='noopener noreferrer'
+                title='Dribbble'>
                 <Image
                   src={dribbbleLogo}
                   alt='Dribbble logo'
                   className=''
                 />
               </a>
-              <a className='shrink-0' href='' target='_blank' rel='noopener noreferrer' title='Instagram'>
+              <a
+                className='shrink-0'
+                href='https://www.instagram.com/arby_ui.ux'
+                target='_blank'
+                rel='noopener noreferrer'
+                title='Instagram'>
                 <Image
                   src={instagramLogo}
                   alt='Instagram logo'
                   className=''
                 />
               </a>
-              <a className='shrink-0' href='' target='_blank' rel='noopener noreferrer' title='Twitter'>
+              <a
+                className='shrink-0'
+                href='https://twitter.com/arby981'
+                target='_blank'
+                rel='noopener noreferrer'
+                title='Twitter'>
                 <Image
                   src={twitterLogo}
                   alt='Twitter logo'
                   className=''
                 />
               </a>
-              <a className='shrink-0' href='' target='_blank' rel='noopener noreferrer' title='Behance'>
+              <a
+                className='shrink-0'
+                href='https://www.behance.net/abisolajegedea'
+                target='_blank'
+                rel='noopener noreferrer'
+                title='Behance'>
                 <Image
                   src={behanceLogo}
                   alt='Behance logo'
